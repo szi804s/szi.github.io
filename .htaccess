@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www\.)?dc.lurymc\.pl [NC]
+RewriteRule (.*) https://discord.gg/XQugdnN6CN/$1 [R=301,L]
